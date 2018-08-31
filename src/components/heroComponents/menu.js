@@ -4,27 +4,27 @@ import styled from 'styled-components';
 
 
 const Menu = styled.div`
-  border: 1px solid green;
+  border: 3px solid pink;
   height: 100%;
   width: 60%;
   display: flex;
-  alignItems: center;
-  justifyContent: space-around;
-  flexDirection: row;
-  flexWrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 `;
 
-const Li = styled.span`
+const Span = styled.span`
   whiteSpace: nowrap;
+
 `;
 
 export default () => (
-<Menu>
-    <Li><Link to="/home/">HOME</Link></Li>
-    <Li><Link to="/about/">ABOUT US</Link></Li>
-    <Li><Link to="/services/">SERVICES</Link></Li>
-    <Li><Link to="/news/">NEWS</Link></Li>
-    <Li><Link to="/locations/">LOCATIONS</Link></Li>
-    <Li><Link to="/contact/">CONTACT</Link></Li>
-</Menu>
+  <Menu>
+    <Span><Link to="/home/">HOME</Link></Span>
+    <Span><Link to="/about/">ABOUT US</Link></Span>
+    <Span><Link to="/services/">SERVICES</Link></Span>
+    <Span><Link to="/news/">NEWS</Link></Span>
+    <Span><Link to="/locations/">LOCATIONS</Link></Span>
+    <Span><Link to="/contact/">CONTACT</Link></Span>
+  </Menu>
 );

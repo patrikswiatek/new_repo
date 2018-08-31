@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 
 const Button = styled.button`
-  width:: 5vw;
+  width: 8vw;
+  height: 5vh;
+  background: yellow;
 `;
 
 export default () => (

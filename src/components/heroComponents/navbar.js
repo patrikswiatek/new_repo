@@ -3,23 +3,26 @@ import Logo from "./logo";
 import Menu from "./menu";
 import Icon from "./icon"
 import styled from 'styled-components';
+import Container from "./../container";
 
 
 const Navbar = styled.div`
-  border: 1px solid blue;
-  height: 7vh;
+  border: 3px solid yellow;
+  height: 8vh;
   width: 60vw;
   background: white;
   display: flex;
-  alignItems: center;
-  justifyContent: right;
-  flexWrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3.5vh;
 `;
 
 export default () => (
-  <Navbar>
-    <Logo />
-    <Menu />
-    <Icon />
-  </Navbar>
+  <Container>
+    <Navbar>
+      <Logo />
+      <Menu />
+      <Icon />
+    </Navbar>
+  </Container>
 );

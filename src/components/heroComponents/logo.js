@@ -4,22 +4,16 @@ import styled from 'styled-components';
 
 
 const Logo = styled.div`
+border: 1px solid darkblue;
   height: 100%;
-  width: 10vw;
-  marginLeft: 1%;
+  width: 20%;
   display: flex;
-  justifyAlign: center;
-  alignItems: center;
-  verticalAlign: center;
+  justify-self: flex-start;
 `;
 
 const ImgHolder = styled.span`
   height: 100%;
   width: 7vw;
-  marginLeft: 13%;
-  display: flex;
-  justifyAlign: center;
-  alignItems: center;
 `;
 
 const Image = styled.img`
@@ -28,10 +22,6 @@ const Image = styled.img`
 
 const LogoBox = styled.div`
   width: 3vw;
-  display: flex;
-  justifyAlign: center;
-  alignItems: center;
-  flexDirection: column;
 `;
 
 const LogoHeader = styled.h4`

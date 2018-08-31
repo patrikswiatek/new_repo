@@ -8,7 +8,8 @@ import styled from 'styled-components';
 
 
 const Boxes = styled.div`
-  display: flex;
+  width: 100%;
+  height: 30vh;
 `;
 
 export default () => (
@@ -18,3 +19,6 @@ export default () => (
     <Box3 />
   </Boxes>
 );
+
+
+border: "1px solid "

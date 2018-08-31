@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d3e4a1f7defb7d8f4e7eb4f385a1ded",
+        "contentDigest": "6f2e5fcfc682d183896056e2f87fd811",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -202,6 +202,83 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3b1d7ebb422d027582fbdc87514ff784",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-typography": {
       "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
@@ -278,7 +355,7 @@
       "resolve": "/Users/patrykswiatek/Opus/page_code",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "cf432722453702a652ca59edd5797b01",
+      "version": "6e7d49a19bb65dfa47e1b0fade5c951c",
       "pluginOptions": {
         "plugins": []
       },
@@ -293,7 +370,11 @@
         "dependencies": [
           {
             "name": "babel-plugin-styled-components",
-            "version": "^1.5.1"
+            "version": "^1.6.0"
+          },
+          {
+            "name": "bootstrap",
+            "version": "^4.1.3"
           },
           {
             "name": "gatsby",
@@ -304,8 +385,44 @@
             "version": "^1.6.46"
           },
           {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
             "name": "gatsby-plugin-typography",
             "version": "^1.7.19"
+          },
+          {
+            "name": "graceful-fs",
+            "version": "^4.1.11"
+          },
+          {
+            "name": "jquery",
+            "version": "^3.3.1"
+          },
+          {
+            "name": "jscs-preset-wikimedia",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "node",
+            "version": "^10.9.0"
+          },
+          {
+            "name": "popper.js",
+            "version": "^1.14.4"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-treeview",
+            "version": "^0.4.7"
           },
           {
             "name": "styled-components",
@@ -322,6 +439,10 @@
           {
             "name": "typography-theme-lawton",
             "version": "^0.15.10"
+          },
+          {
+            "name": "update",
+            "version": "^0.7.4"
           }
         ],
         "devDependencies": [],
@@ -332,7 +453,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7e4220c7b22eceedad18c2308293623c",
+        "contentDigest": "bb8902a515e2224253fcc3a5cb366578",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -423,14 +544,18 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
+      "proxy": {
+        "prefix": "/api",
+        "url": "http://dev-mysite.com"
+      },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-31T00:53:24.198Z",
+      "buildTime": "2018-08-31T17:47:18.046Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef3eba56f1284f8ba798e247ba9a83ef",
+        "contentDigest": "04eb54d5d4f48b0f332bbc0df0ef06e6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -451,7 +576,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "56cc0bc135d291f6ad0693c0681ddca8",
+        "contentDigest": "9a1091825da9c4941b6f6db6a57b7dc7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -472,7 +597,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f0448d500e5b164b338802656727f811",
+        "contentDigest": "c67a4a2049f5080e3e869cf565f062c3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -493,7 +618,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e1e5ce583174ab778bbd5dc0f06b295c",
+        "contentDigest": "1f8e10807417e08660c48020f5ae9950",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -514,7 +639,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "530693d4a1533ef912a5cce62ca7ed14",
+        "contentDigest": "0550d3907fc29efb23a00572050fb16c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -535,7 +660,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dbbefe851596e390e750531e7313337d",
+        "contentDigest": "b208389effc94d1b3499d190c578a288",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -556,7 +681,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6e8d19d1b5600e7728cc64eacfba693c",
+        "contentDigest": "ab6ef938bdd27c0a0aeb6a7ac9d2de23",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -577,7 +702,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c07468db6a177458b7bc9b08ac0001dc",
+        "contentDigest": "d1a4fefa5ec57132b5b9ec8f6f937020",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -585,7 +710,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0d5654c75e1d142ca6b0c550264f8820"
+    "PLUGINS_HASH": "e611690097f0896320155bbc32f9d559"
   },
   "componentDataDependencies": {
     "nodes": {},

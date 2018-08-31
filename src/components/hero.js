@@ -3,34 +3,28 @@ import Container from "./container";
 import Navbar from "./heroComponents/navbar";
 import Header from "./heroComponents/header";
 import Boxes from "./heroComponents/boxes";
+import Button from "./heroComponents/button";
 import styled from 'styled-components';
+import bootstrap from 'bootstrap';
 
 
 const Background = styled.div`
+  border: 1px solid red;
   height: 107vh;
   width: 100%;
-  width: 60%;
-  background: green;
-`;
-
-const Content = styled.div`
-  height: 107vh;
-  width: 100%;
-  width: 60%;
+  background: lightgreen;
   display: flex;
-  alignItems: center;
   justifyContent: center;
-  flexDirection: column;
+  alignItems: center;
 `;
 
 export default () => (
-<div className='row'>
   <Background>
     <Container>
-      <Content>
-        <Navbar />
-        <Header />
-      </Content>
+      <Navbar />
+      <Header />
+      <Boxes />
+      <Button />
     </Container>
   </Background>
-</div>);
+);

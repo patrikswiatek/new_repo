@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -7,4 +8,8 @@ module.exports = {
       },
     },
   ],
+  proxy: {
+  prefix: "/api",
+  url: "http://dev-mysite.com",
+  },
 };
