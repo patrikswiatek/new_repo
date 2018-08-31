@@ -1,6 +1,9 @@
 import React from "react";
+import styled from 'styled-components';
 
 
-export default () => (
-  <h4>OVERLAND NETWORK</h4>
-);
+const Title = styled.h4`
+  display: flex;
+`;
+
+export default () => <Title>OVERLAND NETWORK</Title>;

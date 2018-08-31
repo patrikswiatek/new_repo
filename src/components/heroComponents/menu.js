@@ -1,26 +1,30 @@
 import React from "react";
 import Link from "gatsby-link";
+import styled from 'styled-components';
+
+
+const Menu = styled.div`
+  border: 1px solid green;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  alignItems: center;
+  justifyContent: space-around;
+  flexDirection: row;
+  flexWrap: nowrap;
+`;
+
+const Li = styled.span`
+  whiteSpace: nowrap;
+`;
 
 export default () => (
-<div style={{border: '1px solid green', height:'100%', width: '60%', display:'flex',
-justifyContent:'space-around', alignItems:'center', flexDirection:'row', flexWrap: 'nowrap'}}>
-  <div>
-    <Link to="/home/" style={{whiteSpace: 'nowrap'}}>HOME</Link>
-  </div>
-  <div>
-    <Link to="/about/" style={{whiteSpace: 'nowrap'}}>ABOUT US</Link>
-  </div>
-  <div>
-    <Link to="/services/" style={{whiteSpace: 'nowrap'}}>SERVICES</Link>
-  </div>
-  <div>
-    <Link to="/news/" style={{whiteSpace: 'nowrap'}}>NEWS</Link>
-  </div>
-  <div>
-    <Link to="/locations/" style={{whiteSpace: 'nowrap'}}>LOCATIONS</Link>
-  </div>
-  <div>
-    <Link to="/contact/" style={{whiteSpace: 'nowrap'}}>CONTACT</Link>
-  </div>
-</div>
+<Menu>
+    <Li><Link to="/home/">HOME</Link></Li>
+    <Li><Link to="/about/">ABOUT US</Link></Li>
+    <Li><Link to="/services/">SERVICES</Link></Li>
+    <Li><Link to="/news/">NEWS</Link></Li>
+    <Li><Link to="/locations/">LOCATIONS</Link></Li>
+    <Li><Link to="/contact/">CONTACT</Link></Li>
+</Menu>
 );
