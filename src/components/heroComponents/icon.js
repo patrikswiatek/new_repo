@@ -3,9 +3,17 @@ import search from "./../../media/search-circular-symbol.png";
 import styled from 'styled-components';
 
 
-const Image = styled.img`
-  height: 40px;
-  fontSize: 1.3rem;
+const Image = styled.div`
+border: 1px solid purple;
+  height: 100%;
+  width: 9%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
 `;
 
-export default () => <Image src={search} alt="" />;
+const Img = styled.img`
+  height: 35px;
+`;
+
+export default () => <Image><Img src={search} alt="" /></Image>;

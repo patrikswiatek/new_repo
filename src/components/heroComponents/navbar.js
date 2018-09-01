@@ -12,7 +12,6 @@ const Navbar = styled.div`
   width: 60vw;
   background: white;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   margin-top: 3.5vh;
 `;

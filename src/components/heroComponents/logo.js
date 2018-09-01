@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Logo = styled.div`
 border: 1px solid darkblue;
   height: 100%;
-  width: 20%;
+  width: 19%;
   display: flex;
   justify-self: flex-start;
 `;

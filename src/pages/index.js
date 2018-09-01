@@ -10,3 +10,13 @@ export default () => (
       <Offer />
     </div>
 );
+// const ImageAPI = props => {
+//   const assets = props.data.allContentfulAsset.edges
+//   return (
+//
+// export default () => (
+//     <div>
+//       <Hero />
+//       <Offer />
+//     </div>
+// );
