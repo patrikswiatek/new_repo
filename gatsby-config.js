@@ -1,5 +1,11 @@
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+
 require('dotenv').config();
+
 const generateBabelConfig = require("gatsby/dist/utils/babel-config");
+
 
 module.exports = {
   siteMetadata: {
