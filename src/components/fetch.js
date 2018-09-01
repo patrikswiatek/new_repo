@@ -1,10 +1,3 @@
-import React from "react";
-import styled from 'styled-components';
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-
-
 var contentful = require('contentful-management')
 
 var client = contentful.createClient({

@@ -1,6 +1,7 @@
+if (process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
+  require('dotenv').config({ path: './.env.development'})
+}
 require('dotenv').config();
-
-const generateBabelConfig = require("gatsby/dist/utils/babel-config");
 
 
 module.exports = {
@@ -9,7 +10,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -19,37 +19,9 @@ module.exports = {
 {
     resolve: `gatsby-source-contentful`,
     options: {
-        spaceId: `pbrtocrgz17d`,
-        accessToken: `33e2d4e9480ad0397cabd9165fc5c1f662ec821a291bdbde640a2eaa23070d5c`,
+      spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+      accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`,
     },
 },
   ],
 };
-
-
-
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  const program = {
-    directory: __dirname,
-    browserslist: ["> 1%", "last 2 versions", "IE >= 9"],
-  };
-
-  return generateBabelConfig(program, stage).then(babelConfig => {
-    config.removeLoader("js").loader("js", {
-      test: /\.jsx?$/,
-      exclude: modulePath => {
-        return (
-          /node_modules/.test(modulePath) &&
-          !/node_modules\/(swiper|dom7)/.test(modulePath)
-        );
-      },
-      loader: "babel",
-      query: babelConfig,
-    });
-  });
-};
-
-new webpack.ProvidePlugin({
-  $: 'jquery',
-  jQuery: 'jquery'
-})

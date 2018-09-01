@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "30f11a4be4b6bcc9bb321f5aca7b3b2b",
+        "contentDigest": "c8fed6bafe85728181f8a59d8a1e83bf",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -358,8 +358,8 @@
       "version": "1.3.54",
       "pluginOptions": {
         "plugins": [],
-        "spaceId": "pbrtocrgz17d",
-        "accessToken": "33e2d4e9480ad0397cabd9165fc5c1f662ec821a291bdbde640a2eaa23070d5c"
+        "spaceId": "qcxow5uej8fm",
+        "accessToken": "693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f"
       },
       "nodeAPIs": [
         "setFieldsOnGraphQLNodeType",
@@ -444,7 +444,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "88c2a55ca9f86b2ae1ba4ced03721304",
+        "contentDigest": "e9d151589e3629b906d716e2ecbacc6f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +453,7 @@
       "resolve": "/Users/patrykswiatek/Opus/page_code",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "fb685826e6a03c101d706ea02d2d197f",
+      "version": "6edff22edec2a34c43fefda9f648b189",
       "pluginOptions": {
         "plugins": []
       },
@@ -475,7 +475,7 @@
         "dependencies": [
           {
             "name": "bootstrap",
-            "version": "^4.1.3"
+            "version": "^3.3.7"
           },
           {
             "name": "contentful-cli",
@@ -555,7 +555,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "52028e2d14f0bd0e43e73f9c25951c89",
+        "contentDigest": "4a30a19cd7d9cdb7ef21c2db85c08f34",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -650,12 +650,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-01T17:43:25.482Z",
+      "buildTime": "2018-09-01T18:22:40.207Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c010625758a5467b93be33ab614aeb69",
+        "contentDigest": "46ec903fea9d35e0e412a6f89b18ce78",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -666,12 +666,81 @@
       "children": [],
       "name": "Hero",
       "displayField": "header",
+      "description": "Background, header, navbar, boxes",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "3c35d56e273d3deee495cc97a1f622e7",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "KvovX7afcqmAueEU0yMAa": {
+      "header": "STRONGEST DISTRIBUTION NETWORK",
+      "menu": [
+        "HOME",
+        "ABOUT US",
+        "SERVICES",
+        "NEWS LOCATION",
+        "CONTACT"
+      ],
+      "theSmallest": "READ MORE",
+      "theSmallest2": "READ MORE",
+      "theSmallest3": "READ MORE",
+      "boxHeader": "OVERLAND NETWORK ",
+      "textHeader": "Lorem ipsum dolor sit amet, magna eu luctus viverra sem, egestas nec aspernatur massa consectetuer aliquam. Viverra montes cum, porta tincidunt, pretium amet diam, facilisis feugiat purus risus blandit mi magnis",
+      "boxHeader2": "OCEAN FREIGHT",
+      "textHeader2": "Lorem ipsum dolor sit amet, magna eu luctus viverra sem, egestas nec aspernatur massa consectetuer aliquam. Viverra montes cum, porta tincidunt, pretium amet diam, facilisis feugiat purus risus blandit mi magnis",
+      "boxHeader3": "AIR FREIGHT",
+      "textHeader3": "Lorem ipsum dolor sit amet, magna eu luctus viverra sem, egestas nec aspernatur massa consectetuer aliquam. Viverra montes cum, porta tincidunt, pretium amet diam, facilisis feugiat purus risus blandit mi magnis",
+      "button": "VIEW DETAILS",
+      "id": "KvovX7afcqmAueEU0yMAa",
+      "contentful_id": "KvovX7afcqmAueEU0yMAa",
+      "createdAt": "2018-08-30T00:43:41.724Z",
+      "updatedAt": "2018-08-30T00:43:41.724Z",
+      "parent": "Hero",
+      "children": [],
+      "internal": {
+        "type": "ContentfulHero",
+        "contentDigest": "1a6656ece63e9604b7effd0cf4484b54",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "What we offer": {
+      "id": "What we offer",
+      "parent": null,
+      "children": [],
+      "name": "What we offer",
+      "displayField": "header",
       "description": "",
       "internal": {
         "type": "ContentfulContentType",
-        "contentDigest": "e1e4d315f31380002058712da7a894bf",
+        "contentDigest": "ce8a40804873f29c36ca409cb4afda8d",
         "owner": "gatsby-source-contentful"
       }
+    },
+    "c48FfU6BFe88uIIqeeEk60O": {
+      "header": "What we Offer",
+      "headerText": "TAILORED LOGISTIC SERVICES",
+      "imageHeader": "Contract Logistics",
+      "imageText": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
+      "imageHeader2": "Overland, ocean and air freight",
+      "imageText2": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
+      "imageHeader3": "Warehousing and storage",
+      "imageText3": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
+      "imageHeader4": "Consulting services",
+      "imageText4": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
+      "id": "c48FfU6BFe88uIIqeeEk60O",
+      "contentful_id": "48FfU6BFe88uIIqeeEk60O",
+      "createdAt": "2018-08-30T00:43:17.937Z",
+      "updatedAt": "2018-08-30T00:43:17.937Z",
+      "parent": "What we offer",
+      "children": [],
+      "internal": {
+        "type": "ContentfulWhatWeOffer",
+        "contentDigest": "93731e429bd298dc38f115193d81d41c",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "SitePage /about/": {
       "layout": null,
@@ -689,7 +758,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3fed2d24a7e96a65fc3cead81dca58a0",
+        "contentDigest": "e58cc979a29c335febdb2a9312ef4389",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -710,7 +779,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c4dce0109e536e4b179ba8a36678fdf0",
+        "contentDigest": "d061d357a71f4be653fc59753b2c1cd5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -731,7 +800,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "276d091688470badc241386a461a2252",
+        "contentDigest": "5933bf5351924d5724b90879fc89491a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -752,7 +821,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bec2c7f744068d68960e50dea77554b0",
+        "contentDigest": "3987d99b8044fccf8d7c48a749fc928f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -773,7 +842,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "390eff583a772a669eae3740eda6bc80",
+        "contentDigest": "e8ce70d1da760515617d6a09add0f16f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -794,7 +863,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6d82f934c0394ce34c45a2692f88f43b",
+        "contentDigest": "515aaf5bef37cd0dd23a628592ea72e3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -815,7 +884,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "668206982d2a1e5e18038680de5d402f",
+        "contentDigest": "2e90eb3698275b3055b81af5605127e0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -824,10 +893,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "pbrtocrgz17d-master": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
+        "qcxow5uej8fm-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZew6tTwqR9U8OTfMOew5JBYMOswrVxPzp7wqg7TETCvcOuX8KFCMKWZ8Ohwr8KL1LDqsORSsKGwqTDqHDDoA8UwrnDjcOrwpJqwrDCoMKmw71vGMOHwr_Cs8OqOsO4bcOqTA"
       }
     },
-    "PLUGINS_HASH": "8b3420d28a7de7dc3330af88aa008754"
+    "PLUGINS_HASH": "a551a75e60cab8d922dab9cba8a9e30b"
   },
   "componentDataDependencies": {
     "nodes": {},
