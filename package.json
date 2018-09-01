@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^3.3.7",
     "contentful-cli": "^0.16.1",
     "gatsby": "^1.9.277",
     "gatsby-image": "^1.0.55",
