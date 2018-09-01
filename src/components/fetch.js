@@ -5,8 +5,7 @@ var contentful = require('contentful-management')
 
 var client = contentful.createClient({
   // This is the access token for this space. Normally you get the token in the Contentful web app
-  accessToken: '693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f
-'
+  accessToken: '693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f'
 })
 
 // This API call will request a space with the specified ID

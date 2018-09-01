@@ -1,0 +1,7 @@
+[Settings]
+ID = "1a058f52-e023-48b3-b4a6-816a23a431c8"
+
+# Production context: All deploys from the Production branch set in your site's deploy settings will inherit these settings.
+[context.production]
+  CONTENTFUL_ACCESS_TOKEN = "693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f"
+  CONTENTFUL_SPACE_ID = "qcxow5uej8fm"

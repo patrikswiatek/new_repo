@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7ce636c0b602cee8271f7f1bb69dfc4c",
+        "contentDigest": "d369460a3692236b4be811fd6ba04515",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +453,7 @@
       "resolve": "/Users/patrykswiatek/Opus/page_code",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "2fcc437271e3487f2412d497e3d3232e",
+      "version": "437a98ad3c0472a4f2563f692c6bd5c9",
       "pluginOptions": {
         "plugins": []
       },
@@ -526,6 +526,10 @@
             "version": "^1.7.0"
           },
           {
+            "name": "dotenv",
+            "version": "^6.0.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.13.7"
           }
@@ -537,7 +541,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "570264a8026163a457c38d0ff42d4714",
+        "contentDigest": "4809fde2d824c01b2d8ab3f29ad48e3f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -632,12 +636,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-01T15:58:24.491Z",
+      "buildTime": "2018-09-01T16:36:56.090Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "580a91d5e5523610cff084505f7baffd",
+        "contentDigest": "760e30ef391aa04eb52154a9d2e129bc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -671,7 +675,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9223e9d626b746b87c274d1482d7bbdb",
+        "contentDigest": "4e0def76e6b9715b7b27f1f9b73f06e4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -692,7 +696,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e5342265e148ffe90dc5838780247ca",
+        "contentDigest": "1cb094dbab7371b0e27dd73922d9ec3f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -713,7 +717,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b8195b5482cdfe33c361fab31d105ed5",
+        "contentDigest": "1d3c0ee0055f9bd89ba1101014368b74",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -734,7 +738,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "68f8c1b4157f92cba6ef1bc6ff396fa8",
+        "contentDigest": "813e0f91295a7ac84bdbbdbc7cbac83e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -755,7 +759,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb693a53834d9552ae452fb3b27c6fbb",
+        "contentDigest": "6696469767f15541747a9a926b12bc2a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -776,7 +780,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7c6cbf2db64eb302607f6e6c7f169ec",
+        "contentDigest": "361f3dce50da66880f1d7ede38252609",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -797,7 +801,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "00a33f7f9632da2739f003229c07d5af",
+        "contentDigest": "bba216d3fbff7fe8f81c4f1fb251a7b6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -809,7 +813,7 @@
         "pbrtocrgz17d-master": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
       }
     },
-    "PLUGINS_HASH": "2ada2260233bf8a613123ac0497d7b95"
+    "PLUGINS_HASH": "396cc3a3fae45c4c7f01fb673a70ee72"
   },
   "componentDataDependencies": {
     "nodes": {},
