@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d369460a3692236b4be811fd6ba04515",
+        "contentDigest": "30f11a4be4b6bcc9bb321f5aca7b3b2b",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -280,7 +280,7 @@
       }
     },
     "Plugin gatsby-plugin-typography": {
-      "resolve": "/Users/patrykswiatek/node_modules/gatsby-plugin-typography",
+      "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
       "version": "1.7.19",
@@ -297,7 +297,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/patrykswiatek/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -346,7 +346,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b4405353042d592504d0af06ccd7ceb5",
+        "contentDigest": "1db33e936120eafefd0ea23e754d51a4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -453,11 +453,13 @@
       "resolve": "/Users/patrykswiatek/Opus/page_code",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "437a98ad3c0472a4f2563f692c6bd5c9",
+      "version": "fb685826e6a03c101d706ea02d2d197f",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/patrykswiatek/Opus/page_code",
@@ -496,6 +498,10 @@
             "version": "^2.0.11"
           },
           {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.19"
+          },
+          {
             "name": "gatsby-source-contentful",
             "version": "^1.3.54"
           },
@@ -508,6 +514,10 @@
             "version": "^3.3.1"
           },
           {
+            "name": "module",
+            "version": "^1.2.5"
+          },
+          {
             "name": "popper.js",
             "version": "^1.14.4"
           },
@@ -518,6 +528,10 @@
           {
             "name": "styled-components",
             "version": "^3.4.5"
+          },
+          {
+            "name": "webpack-configurator",
+            "version": "^0.3.1"
           }
         ],
         "devDependencies": [
@@ -541,7 +555,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4809fde2d824c01b2d8ab3f29ad48e3f",
+        "contentDigest": "52028e2d14f0bd0e43e73f9c25951c89",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -636,12 +650,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-01T16:36:56.090Z",
+      "buildTime": "2018-09-01T17:43:25.482Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "760e30ef391aa04eb52154a9d2e129bc",
+        "contentDigest": "c010625758a5467b93be33ab614aeb69",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -675,7 +689,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4e0def76e6b9715b7b27f1f9b73f06e4",
+        "contentDigest": "3fed2d24a7e96a65fc3cead81dca58a0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -696,7 +710,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1cb094dbab7371b0e27dd73922d9ec3f",
+        "contentDigest": "c4dce0109e536e4b179ba8a36678fdf0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -717,7 +731,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d3c0ee0055f9bd89ba1101014368b74",
+        "contentDigest": "276d091688470badc241386a461a2252",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -738,7 +752,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "813e0f91295a7ac84bdbbdbc7cbac83e",
+        "contentDigest": "bec2c7f744068d68960e50dea77554b0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -759,7 +773,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6696469767f15541747a9a926b12bc2a",
+        "contentDigest": "390eff583a772a669eae3740eda6bc80",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -780,7 +794,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "361f3dce50da66880f1d7ede38252609",
+        "contentDigest": "6d82f934c0394ce34c45a2692f88f43b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -801,7 +815,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bba216d3fbff7fe8f81c4f1fb251a7b6",
+        "contentDigest": "668206982d2a1e5e18038680de5d402f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -813,7 +827,7 @@
         "pbrtocrgz17d-master": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
       }
     },
-    "PLUGINS_HASH": "396cc3a3fae45c4c7f01fb673a70ee72"
+    "PLUGINS_HASH": "8b3420d28a7de7dc3330af88aa008754"
   },
   "componentDataDependencies": {
     "nodes": {},
