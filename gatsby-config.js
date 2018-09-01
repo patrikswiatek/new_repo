@@ -46,3 +46,8 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
     });
   });
 };
+
+new webpack.ProvidePlugin({
+  $: 'jquery',
+  jQuery: 'jquery'
+})
