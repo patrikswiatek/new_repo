@@ -5,22 +5,21 @@ import styles from "./../../pages/about-css-modules.module.css";
 
 
 const Menu = styled.div`
-  border: 3px solid pink;
   height: 100%;
-  width: 72%;
+  width: 72.1%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   font-size: 13px;
-  line-height: 22px;
-  color: rgb(51,51,51);
-  font-weight: 800;
+  line-height: 13px;
+  font-weight: 700;
+  padding-top: 0.22%;
 `;
 
 const Span = styled.span`
   whiteSpace: nowrap;
-  margin-left: 5.50%;
+  margin-left: 5.3%;
 `;
 
 export default () => (

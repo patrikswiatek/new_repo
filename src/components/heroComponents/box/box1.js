@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 const Box1 = styled.div`
 border: 1px solid cyan;
-  width: 32%;
+  width: 31.6%;
   height: 100%;
   display: flex;
   justify-content: center;

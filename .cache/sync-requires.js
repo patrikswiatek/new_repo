@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/patrykswiatek/Opus/page_code/.cache/dev-404-page.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/patrykswiatek/Opus/page_code/src/pages/about.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/patrykswiatek/Opus/page_code/src/pages/contact.js")),
   "component---src-pages-home-js": preferDefault(require("/Users/patrykswiatek/Opus/page_code/src/pages/home.js")),
@@ -18,7 +17,6 @@ exports.components = {
 }
 
 exports.json = {
-  "dev-404-page.json": require("/Users/patrykswiatek/Opus/page_code/.cache/json/dev-404-page.json"),
   "about.json": require("/Users/patrykswiatek/Opus/page_code/.cache/json/about.json"),
   "contact.json": require("/Users/patrykswiatek/Opus/page_code/.cache/json/contact.json"),
   "home.json": require("/Users/patrykswiatek/Opus/page_code/.cache/json/home.json"),

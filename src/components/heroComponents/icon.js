@@ -4,16 +4,16 @@ import styled from 'styled-components';
 
 
 const Image = styled.div`
-border: 1px solid purple;
   height: 100%;
-  width: 9%;
+  width: 8%;
   display: flex;
   justify-content: center;
   padding-top: 2%;
+  margin-right: 0.24%;
 `;
 
 const Img = styled.img`
-  height: 35px;
+  height: 33px;
 `;
 
 export default () => <Image><Img src={search} alt="" /></Image>;

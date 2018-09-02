@@ -1,10 +1,10 @@
 import React from "react";
-import delivery from "./../../media/fast-delivery.png"
+
 import styled from 'styled-components';
 
 
 const Logo = styled.div`
-border: 1px solid darkblue;
+  
   height: 100%;
   width: 19%;
   display: flex;
@@ -17,6 +17,6 @@ const Image = styled.img`
 
 export default () => (
   <Logo>
-    <Image src={delivery} alt="" />
+    <Image src="" alt="" />
   </Logo>
 );

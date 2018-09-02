@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-require('bootstrap');
+
 
 const BoxRead = styled.div`
   background: rgba(255, 255, 255, 255);
