@@ -8,8 +8,11 @@ import styled from 'styled-components';
 
 
 const Boxes = styled.div`
+border: 1px solid blue;
   width: 100%;
-  height: 30vh;
+  height: 38vh;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export default () => (

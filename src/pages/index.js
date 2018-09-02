@@ -4,6 +4,12 @@ import Offer from "./../components/offer";
 import styled from 'styled-components';
 
 
+// WebFontConfig = {
+//   google: {
+//     families: ['Open Sans Condensed:300,700']
+//   }
+// };
+
 export default () => (
     <div>
       <Hero />

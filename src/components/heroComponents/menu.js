@@ -12,11 +12,15 @@ const Menu = styled.div`
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 13px;
+  line-height: 22px;
+  color: rgb(51,51,51);
+  font-weight: 800;
 `;
 
 const Span = styled.span`
   whiteSpace: nowrap;
-  margin-left: 3%;
+  margin-left: 5.50%;
 `;
 
 export default () => (

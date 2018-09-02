@@ -9,10 +9,9 @@ import bootstrap from 'bootstrap';
 
 
 const Background = styled.div`
-  border: 1px solid red;
-  height: 107vh;
+  height: 111.5vh;
   width: 100%;
-  background: lightgreen;
+  background: rgba(18, 38, 54, 1);
   display: flex;
   justifyContent: center;
   alignItems: center;

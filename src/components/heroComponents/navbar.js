@@ -7,13 +7,14 @@ import Container from "./../container";
 
 
 const Navbar = styled.div`
-  border: 3px solid yellow;
-  height: 8vh;
-  width: 60vw;
-  background: white;
-  display: flex;
-  align-items: center;
-  margin-top: 3.5vh;
+    height: 8.4vh;
+    width: 59.6vw;
+    background: white;
+    display: flex;
+    align-items: center;
+    margin-top: 3.4vh;
+    margin-bottom: 15.5vh;
+    border-top: 7px solid orange;
 `;
 
 export default () => (
