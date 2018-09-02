@@ -5,6 +5,7 @@ import Header from "./heroComponents/header";
 import Boxes from "./heroComponents/boxes";
 import Button from "./heroComponents/button";
 import styled from 'styled-components';
+import bootstrap from 'bootstrap';
 
 
 const Background = styled.div`
