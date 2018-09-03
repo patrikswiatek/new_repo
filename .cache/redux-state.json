@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": null,
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/patrykswiatek/Opus/page_code/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/patrykswiatek/Opus/page_code/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "8c64712de262daa722ac246969480fa2",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -269,6 +279,145 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-eslint": {
+      "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-eslint",
+      "id": "Plugin gatsby-plugin-eslint",
+      "name": "gatsby-plugin-eslint",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-eslint",
+      "packageJson": {
+        "name": "gatsby-plugin-eslint",
+        "description": "Gatsby plugin to add support for ESLint",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "eslint"
+        ],
+        "author": {
+          "name": "Mong-Kuen Sun",
+          "email": "mongkuen.sun@gmail.com"
+        },
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "concurrently",
+            "version": "^3.6.1"
+          },
+          {
+            "name": "onchange",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.9.0"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">=1"
+          }
+        ],
+        "dependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7ed3b6ca6fb0e6df6a0089e79636aecf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9ed077f3c4f7d5fc23b64da70aa1f01f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-typography": {
       "resolve": "/Users/patrykswiatek/Opus/page_code/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
@@ -349,7 +498,8 @@
       "pluginOptions": {
         "plugins": [],
         "spaceId": "qcxow5uej8fm",
-        "accessToken": "693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f"
+        "accessToken": "c4b715c4a90a3a855eb87bf210c9087547c11a77849276cff01ab99c9ac37f16",
+        "host": "preview.contentful.com"
       },
       "nodeAPIs": [
         "setFieldsOnGraphQLNodeType",
@@ -434,7 +584,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e9d151589e3629b906d716e2ecbacc6f",
+        "contentDigest": "e49f57a8dce2b6e234860e1af973c995",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -443,7 +593,7 @@
       "resolve": "/Users/patrykswiatek/Opus/page_code",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a0f64f0c62e6aafddfb6846e9ff51f27",
+      "version": "2a59dfd0f448a77833cacaf3f7b23c76",
       "pluginOptions": {
         "plugins": []
       },
@@ -462,12 +612,36 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "apollo-boost",
+            "version": "^0.1.15"
+          },
+          {
+            "name": "apollo-client",
+            "version": "^2.4.1"
+          },
+          {
             "name": "contentful-cli",
             "version": "^0.16.1"
           },
           {
+            "name": "cross-fetch",
+            "version": "^2.2.2"
+          },
+          {
             "name": "dotenv",
             "version": "^6.0.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "fs",
+            "version": "0.0.1-security"
           },
           {
             "name": "gatsby",
@@ -494,8 +668,20 @@
             "version": "^1.3.54"
           },
           {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "^1.0.20"
+          },
+          {
             "name": "gatsby-transformer-remark",
             "version": "^1.7.44"
+          },
+          {
+            "name": "graphql-tag",
+            "version": "^2.9.2"
           },
           {
             "name": "jquery",
@@ -504,6 +690,14 @@
           {
             "name": "popper.js",
             "version": "^1.14.4"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react-apollo",
+            "version": "^2.1.11"
           },
           {
             "name": "react-bootstrap",
@@ -524,8 +718,20 @@
         ],
         "devDependencies": [
           {
+            "name": "@types/node",
+            "version": "^10.9.4"
+          },
+          {
             "name": "babel-preset-env",
             "version": "^1.7.0"
+          },
+          {
+            "name": "gatsby-plugin-eslint",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "json-loader",
+            "version": "^0.5.7"
           },
           {
             "name": "prettier",
@@ -539,7 +745,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "73d87198825ef2c1359b7327e55b5430",
+        "contentDigest": "b0102747ea835ff7fe0a9b83c0efd596",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -630,14 +836,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-02T16:43:43.604Z",
+      "buildTime": "2018-09-03T05:04:59.597Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3ef882f587046b7e676cb399399a67b0",
+        "contentDigest": "fbb14c3c0f339dd76c52ab8fa9ec1365",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -674,15 +882,17 @@
       "boxHeader3": "AIR FREIGHT",
       "textHeader3": "Lorem ipsum dolor sit amet, magna eu luctus viverra sem, egestas nec aspernatur massa consectetuer aliquam. Viverra montes cum, porta tincidunt, pretium amet diam, facilisis feugiat purus risus blandit mi magnis",
       "button": "VIEW DETAILS",
+      "logo___NODE": "c4TQgugtHLWUYGuYwe2YK2o",
+      "iconSearch___NODE": "c7whjECifpmCmWW2AE06u2e",
       "id": "KvovX7afcqmAueEU0yMAa",
       "contentful_id": "KvovX7afcqmAueEU0yMAa",
-      "createdAt": "2018-08-30T00:43:41.724Z",
+      "createdAt": "2018-08-29T18:47:16.987Z",
       "updatedAt": "2018-08-30T00:43:41.724Z",
       "parent": "Hero",
       "children": [],
       "internal": {
         "type": "ContentfulHero",
-        "contentDigest": "1a6656ece63e9604b7effd0cf4484b54",
+        "contentDigest": "d4e1418a4642b66b4d1367e129b18b8a",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -711,18 +921,214 @@
       "imageText3": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
       "imageHeader4": "Consulting services",
       "imageText4": "Tristique libero feugiat ac aliquet ante mi, rhoncus hymenaeos, et ut. Ridiculus at augue eleifend, nulla suscipit deserunt consequat nascetur massa, per erat dui tincidunt nulla ac, leo dictum, ut amet. Quis eget odio morbi tincidunt, vitae lectus vitae. ",
+      "image1___NODE": "c6oRuHB1Y52gY2KaO2EOQy0",
+      "image2___NODE": "c50oxzpkEvCMOEEgKkY2aSq",
+      "image3___NODE": "c6LD585Qm2WOqYGeGakYSIk",
+      "image4___NODE": "c6MXml1jaE0qCACWESgIocq",
       "id": "c48FfU6BFe88uIIqeeEk60O",
       "contentful_id": "48FfU6BFe88uIIqeeEk60O",
-      "createdAt": "2018-08-30T00:43:17.937Z",
+      "createdAt": "2018-08-30T00:27:23.924Z",
       "updatedAt": "2018-08-30T00:43:17.937Z",
       "parent": "What we offer",
       "children": [],
       "internal": {
         "type": "ContentfulWhatWeOffer",
-        "contentDigest": "93731e429bd298dc38f115193d81d41c",
+        "contentDigest": "ec0f4b25e8e28050b68fa404daa0d20b",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
+    },
+    "c6MXml1jaE0qCACWESgIocq": {
+      "id": "c6MXml1jaE0qCACWESgIocq",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/6MXml1jaE0qCACWESgIocq/30df10febd5101a5c921218ab1802f84/laptop.png",
+        "details": {
+          "size": 5892,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "laptop.png",
+        "contentType": "image/png"
+      },
+      "title": "laptop",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "6da429620a54edbca54aa73d441e3298",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6LD585Qm2WOqYGeGakYSIk": {
+      "id": "c6LD585Qm2WOqYGeGakYSIk",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/6LD585Qm2WOqYGeGakYSIk/1d54242aac9c8a1f06e1781c707fff64/forklift.png",
+        "details": {
+          "size": 17065,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "forklift.png",
+        "contentType": "image/png"
+      },
+      "title": "forklift",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "1636794ed29abb6f3c6805f7accffbcf",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c50oxzpkEvCMOEEgKkY2aSq": {
+      "id": "c50oxzpkEvCMOEEgKkY2aSq",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/50oxzpkEvCMOEEgKkY2aSq/7a1382db445f9b1f61599d3d6f3d8cd1/world.png",
+        "details": {
+          "size": 39428,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "world.png",
+        "contentType": "image/png"
+      },
+      "title": "world",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "631424d68596631367e4578471d87dc6",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6oRuHB1Y52gY2KaO2EOQy0": {
+      "id": "c6oRuHB1Y52gY2KaO2EOQy0",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/6oRuHB1Y52gY2KaO2EOQy0/5d8a060f141b28abf3cfc01bf6080118/checklist.png",
+        "details": {
+          "size": 21081,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "checklist.png",
+        "contentType": "image/png"
+      },
+      "title": "checklist",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "99dc5e4cd524ebd2d2db7e1482303f50",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4TQgugtHLWUYGuYwe2YK2o": {
+      "id": "c4TQgugtHLWUYGuYwe2YK2o",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/4TQgugtHLWUYGuYwe2YK2o/272fd31e3c985133e0236b93200648bf/fast-delivery.png",
+        "details": {
+          "size": 8967,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "fast-delivery.png",
+        "contentType": "image/png"
+      },
+      "title": "fast-delivery",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "ef353c4c02f7560b8f57d2f83d0eb01b",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c7whjECifpmCmWW2AE06u2e": {
+      "id": "c7whjECifpmCmWW2AE06u2e",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/qcxow5uej8fm/7whjECifpmCmWW2AE06u2e/5188d21d9ca80ba46f26c49b253a3818/search-circular-symbol.png",
+        "details": {
+          "size": 19443,
+          "image": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "fileName": "search-circular-symbol.png",
+        "contentType": "image/png"
+      },
+      "title": "search-circular-symbol",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "e764fa98ac164d5010bb96324b1db878",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c5WoBwyNnjiewae68I6Ekco": {
+      "id": "c5WoBwyNnjiewae68I6Ekco",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//assets.ctfassets.net/qcxow5uej8fm/5WoBwyNnjiewae68I6Ekco/a5da666258089e7f5ccd0f9af6471a93/fast-delivery.psd",
+        "details": {
+          "size": 115248
+        },
+        "fileName": "fast-delivery.psd",
+        "contentType": "image/vnd.adobe.photoshop"
+      },
+      "title": "fast-delivery",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "3c1c71f184faecabf905b42ae50c7b6f",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3kX7GrMuSkssSc2WqWIYg8": {
+      "id": "c3kX7GrMuSkssSc2WqWIYg8",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//assets.ctfassets.net/qcxow5uej8fm/3kX7GrMuSkssSc2WqWIYg8/adb09e7395011807db0bbe508da3627a/fast-delivery.psd",
+        "details": {
+          "size": 115248
+        },
+        "fileName": "fast-delivery.psd",
+        "contentType": "image/vnd.adobe.photoshop"
+      },
+      "title": "fast-delivery",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "6af3487d718d58b50176ae44f5ba31a6",
+        "owner": "gatsby-source-contentful"
+      }
     },
     "SitePage /about/": {
       "layout": null,
@@ -740,7 +1146,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "17cdf70d2a551114d17c113e46a05678",
+        "contentDigest": "2a09d5ad1ab29fbdfa522c63d831ee62",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +1167,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c30c0a068ce15d436c1cd5ba39e16608",
+        "contentDigest": "e18a0a06c117f18faebd2f07a22d4e16",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -782,7 +1188,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c78a732fcbaea0f9f393a5ebebf78b3f",
+        "contentDigest": "9abf10f860b67f1e3483b109d645d72f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -803,7 +1209,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "12159bf66640e4be9b7e6fd740025d38",
+        "contentDigest": "505a492b2e10d841b5bb97d640deba15",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -824,7 +1230,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2d401b4a2ac42a6c4b5f8f3f7daab61",
+        "contentDigest": "14313920950ec474d709b072630da229",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -845,7 +1251,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "38bba003b393fa6db14701e78413f505",
+        "contentDigest": "e8ecfd086ae5ef74c842c1e01baab718",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -866,22 +1272,22 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "331ceecfb7b5671a787c6fc595cd08f5",
+        "contentDigest": "23358f54227b910470f45337d0b7abee",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
-    "plugins": {
-      "gatsby-source-contentful": {
-        "qcxow5uej8fm-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZew6tTwqR9U8OTfMOew5JBYMOswrVxPzp7wqg7TETCvcOuX8KFCMKWZ8Ohwr8KL1LDqsORSsKGwqTDqHDDoA8UwrnDjcOrwpJqwrDCoMKmw71vGMOHwr_Cs8OqOsO4bcOqTA"
-      }
-    },
-    "PLUGINS_HASH": "35d85d9daefe3761abf62334362c32bc"
+    "plugins": {},
+    "PLUGINS_HASH": "e1d1724e632bbbeb980192c8310f4908"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

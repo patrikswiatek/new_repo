@@ -1,11 +1,10 @@
-//
 // exports.createPages = ({ graphql, boundActionCreators }) => {
 //     const { createPage } = boundActionCreators
 //     return new Promise((resolve, reject) => {
 //       graphql(
 //         `
 //           {
-//             allContentfulContentType(limit: 1000) {
+//             pageQuery(limit: 1000) {
 //               edges {
 //                 node {
 //                   id

@@ -1,27 +1,30 @@
-const contentful = require('contentful');
-var contentful = require('contentful-management');
+import React from "react";
 
 
-const client = contentful.createClient({
-  space: 'qcxow5uej8fm',
-  accessToken: '693c142e47247234a0c41804d83ca45c1d3ccf17523379f08c3801f015dd735f'
-})
-// This API call will request a space with the specified ID
-client.getSpace()
-.then((space) => {
-  // Now that we have a space, we can get entries from that space
-  space.getEntries()
-  .then((entries) => {
-    console.log(entries.items)
-  })
-  // let's get a content type
-  space.getContentType('hero')
-  .then((contentType) => {
-    const hero = contentType.items;
-          this.setState({
-            title: hero,
-    .then((contentType) => {
-      console.log('Update was successful')
-    })
-  })
-})
+// Imports data from Contentful to the props
+exports.createPages = ({ graphql, boundActionCreators }) => {
+    const { createPage } = boundActionCreators
+    return new Promise((resolve, reject) => {
+      graphql(
+        `
+          {
+            Query(limit: 1000) {
+              edges {
+                node {
+                  id
+                  name
+                  description
+                  type
+                }
+              }
+            }
+          }
+        `
+      )
+        .then(result => {
+          if (result.errors) {
+            reject(result.errors)
+          }
+        })
+      })
+}

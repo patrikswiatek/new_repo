@@ -1,6 +1,13 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.CONTENTFUL_SPACE_ID}`,
 });
+require("dotenv").config({
+  path: `.env.${process.env.CONTENTFUL_ACCESS_TOKEN}`,
+});
+require("dotenv").config({
+  path: `.env.${process.env.CONTENTFUL_BASE_URI}`,
+});
+
 
 module.exports = {
   siteMetadata: {
@@ -8,18 +15,21 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-eslint',
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
-{
-    resolve: `gatsby-source-contentful`,
-    options: {
-      spaceId: process.env.CONTENTFUL_SPACE_ID || '',
-      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || '',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+      spaceId: `qcxow5uej8fm`,
+      accessToken: `c4b715c4a90a3a855eb87bf210c9087547c11a77849276cff01ab99c9ac37f16`,
+      host: `preview.contentful.com`
+      },
     },
-},
   ],
-};
+}
